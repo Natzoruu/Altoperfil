@@ -1,8 +1,7 @@
 "use client"
 import React, { useState } from "react";
 import { VelocityScroll } from "../ui/scroll-based-velocity";
-import { figtree } from "@/app/layout";
-import SpotlightCard from "@/jsrepo/SpotlightCard/SpotlightCard";
+import { figtree } from "../fonts/fonts";import SpotlightCard from "@/jsrepo/SpotlightCard/SpotlightCard";
 import Image from "next/image";
 import { Input } from "@/once-ui/components";
 import GradientText from "@/jsrepo/GradientText/GradientText";

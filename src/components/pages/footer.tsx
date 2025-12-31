@@ -1,5 +1,5 @@
 import React from "react";
-import { figtree } from "@/app/layout";
+import { figtree , code} from "../fonts/fonts";
 import { ScratchToReveal } from "../ui/scratch-to-reveal";
 
 const Footer = () => {

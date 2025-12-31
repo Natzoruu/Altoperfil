@@ -3,7 +3,7 @@ import { Badge, RevealFx } from "@/once-ui/components";
 import React from "react";
 import { Text } from "@/once-ui/components";
 import AltoPerfilLogo from "../shapes/alto-perfil-logo";
-import { figtree } from "@/app/layout";
+import { figtree } from "../fonts/fonts";
 import { RainbowButton } from "../ui/rainbow-button";
 // import { TeamAvatars } from "../ui/team-avatars";
 

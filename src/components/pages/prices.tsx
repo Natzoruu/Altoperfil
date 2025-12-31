@@ -1,7 +1,7 @@
 'use client'
 import BlurText from "@/jsrepo/BlurText/BlurText";
 import React from "react";
-import { figtree } from "@/app/layout";
+import { figtree } from "../fonts/fonts";
 import PricingPage from "./pricing-page";
 
 const Prices = () => {

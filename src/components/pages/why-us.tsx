@@ -11,7 +11,7 @@ import {
   BiSolidUserDetail,
 } from "react-icons/bi";
 import GradientText from "@/jsrepo/GradientText/GradientText";
-import { figtree } from "@/app/layout";
+import { figtree } from "../fonts/fonts";
 import { Testimonials } from "./testimonials";
 
 const WhyUs = () => {

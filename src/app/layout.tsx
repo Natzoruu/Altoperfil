@@ -1,4 +1,4 @@
-"use client"
+
 import "@/once-ui/styles/index.scss";
 import "@/once-ui/tokens/index.scss";
 import type { Metadata } from "next";
@@ -6,8 +6,7 @@ import "./globals.css";
 import { Flex, Background, Column, ToastProvider } from "@/once-ui/components";
 import { style } from "@/once-ui/resources/config";
 import classNames from "classnames";
-import { Roboto_Mono, Figtree } from "next/font/google";
-import AltoPerfilLogo from "../components/shapes/alto-perfil-logo";
+import { figtree, code } from "../components/fonts/fonts";
 import { Toaster } from "sonner";
 
 // const primary = Inter({
@@ -16,23 +15,13 @@ import { Toaster } from "sonner";
 //   display: "swap",
 // });
 
-export const figtree = Figtree({
-  variable: "--font-secondary",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const code = Roboto_Mono({
-  variable: "--font-code",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-
-// export const metadata: Metadata = {
-// title: "Alto Perfil",
-// description: "Alto Perfil es una agencia de marketing digital que se especializa en la creación de contenido y estrategias de marketing para marcas personales.",
-// };
+export const metadata: Metadata = {
+title: "Alto Perfil",
+description: "Alto Perfil es una agencia de marketing digital que se especializa en la creación de contenido y estrategias de marketing para marcas personales.",
+icons: {
+  icon: "/LogoAP.png",
+},
+};
 
 export default function RootLayout({
   children,

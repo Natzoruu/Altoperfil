@@ -9,7 +9,7 @@ import {
 } from "react-icons/bi";
 import BlurText from "@/jsrepo/BlurText/BlurText";
 import AnimatedContent from "@/jsrepo/AnimatedContent/AnimatedContent";
-import { figtree } from "@/app/layout";
+import { figtree } from "../fonts/fonts";
 
 const Services = () => {
   return (
